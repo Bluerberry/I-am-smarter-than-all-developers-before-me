@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "i am smarter than all developers before me"
+version = "0.1.0"
+description = "Replacing boring old verbose css by my lovingly made pile of garbage, just to see if I can"
+authors = ["Bram Kreulen <boazkreulen.main@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pillow = "^11.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
